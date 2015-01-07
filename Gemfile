@@ -39,6 +39,7 @@ group :development, :test do
   gem 'byebug', '3.4.0'
   gem 'web-console', '2.0.0.beta3'
   gem 'spring', '1.1.3'
+  gem 'unicorn', '4.8.3'
   # Access an IRB console on exception pages or by using <%= console %> in views
   #gem 'web-console', '~> 2.0'
 end

@@ -67,5 +67,4 @@ class UsersControllerTest < ActionController::TestCase
     get :followers, id: @user
     assert_redirected_to login_url
   end
-
 end
